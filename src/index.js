@@ -4,10 +4,23 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Form from "./FormComponent";
+import Header from "./Header"
+
+
+// render(
+//   <BrowserRouter>
+//     <App />
+//   </BrowserRouter>,
+//   document.getElementById('root')
+// )
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
+//   <BrowserRouter>
+//   <Header />
+// </BrowserRouter>,
   <React.StrictMode>
-    <Form />
+    <Header />
   </React.StrictMode>
 );
 
